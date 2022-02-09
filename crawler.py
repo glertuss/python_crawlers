@@ -21,6 +21,6 @@ def function(i):
     
 
 
-for i in range(10000):
+for i in range(500):
     th = Thread(target=function, args=(i, ))
     th.start()
